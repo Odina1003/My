@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/design.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        {% for post in content%}
+        <tr>
+            <td>{{post.id}}</td>
+            <td>{{post.title}}</td>
+            <td>{{post.yaratilgan_sana}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

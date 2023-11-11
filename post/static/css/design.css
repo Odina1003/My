@@ -1,0 +1,12 @@
+th, td{
+    border: 1px solid palevioletred;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: black;
+}
+td{
+    font-weight: bold;
+    font-style: italic;
+}
