@@ -12,11 +12,16 @@
             <th>ID</th>
             <th>Title</th>
             <th>Yaratilgan_sana</th>
-        {% for post in content%}
+            <th>Image</th>
+
+        {% for post in content %}
         <tr>
             <td>{{post.id}}</td>
             <td>{{post.title}}</td>
             <td>{{post.yaratilgan_sana}}</td>
+            <td>
+                <img src="{% static post.image %}">
+            </td>
         </tr>
         {% endfor %}
     </table>

@@ -10,3 +10,7 @@ td{
     font-weight: bold;
     font-style: italic;
 }
+img{
+    width: 100px;
+    height: 100px;
+}
